@@ -1,0 +1,68 @@
+.outerwrapper {
+    background-color:lightgrey;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 1px 1px black;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: aqua;
+    font-family: papyrus;
+    
+}
+
+ul {
+    display: inline;
+    list-style: none;
+    text-align: center;
+
+}
+
+nav {
+    background-color: olivedrab;
+    color: white;
+    float: left;
+    width: 15%;
+    padding-bottom: 30%;
+    margin-right:2%
+
+}
+
+hr , a{
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    overflow: auto;
+}
+
+.firstfruitscoloumn {
+ float: left;
+}
+
+.secondfruitscoloumn {
+    clear: right;
+    overflow: auto;
+}
+
+.thirdfruitscoloumn {
+    clear:left;
+    float :right;
+}
+/* .seedstitle {
+    clear: right;
+}
+/*  
+.seedscoloumn {
+    clear: both;
+} */
+
+footer {
+    clear: both;
+    text-align: center;
+}
