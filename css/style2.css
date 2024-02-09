@@ -3,9 +3,30 @@ body{
     padding: 0;
     background-color: lightgrey;
 }
+ul{
+    list-style: none;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 12px 10px 0 10px;
+   
+}
+li{
+    display: inline;
+    margin: 5px 10px;
+    color: white;
+}
 a{
     text-decoration: none;
     color: white;
+}
+nav{
+    margin-top: 0;
+    background-color: olivedrab;
+    font-family: Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 6px 0;
+
 }
 
 header{
@@ -20,7 +41,7 @@ header{
 }
 .imgtxt{
     
-    color: whitesmoke;
+    color: wheat;
     
 }
 
@@ -36,20 +57,5 @@ header p{
     margin-top: 0;
     font-family: cursive;
     font-size: 30px;
-    margin-bottom: 140px;
-}
-
-section a{
-   text-align: center;
-   display: inline-block;
-   background-color: lightgreen;
-   width: 150px;
-   height: 40px;
-   border-radius: 15px;
-   color: black;
-   margin:0 20px;
-   padding-top: 10px;
-   font-size: x-large;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
