@@ -1,27 +1,30 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: lightgrey;
 }
 
-ul{
+ul {
     list-style: none;
     margin-left: 0;
     margin-top: 0;
     padding: 12px 10px 0 10px;
-   
+
 }
-li{
+
+li {
     display: inline;
     margin: 5px 10px;
     color: white;
 
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-nav{
+
+nav {
     margin-top: 0 10px;
     background-color: olivedrab;
     font-family: Helvetica, sans-serif;
@@ -32,7 +35,8 @@ nav{
 
 
 }
-header::before{
+
+header::before {
     content: "";
     position: relative;
     background-image: url(../img/img3.jpg);
@@ -46,8 +50,8 @@ header::before{
     height: 650px;
 }
 
-header{
-    
+header {
+
     position: relative;
     margin-top: 0px;
     padding-top: 0;
@@ -56,49 +60,42 @@ header{
     width: 100%;
 
 }
-.imgtxt{
+
+.imgtxt {
     position: relative;
     text-shadow: 4px 4px 8px black;
     color: black;
 
-    
+
 }
 
-header h1{
+header h1 {
     margin-top: 190px;
     margin-bottom: 200px;
-    
+
     font-family: Papyrus, fantasy;
     font-size: 150px;
 }
-header p{
+
+header p {
     padding-top: 0;
     margin-top: 0;
     font-family: cursive;
     font-size: 30px;
 }
 
-footer{
-    display: inline-block;
-    background-color: olivedrab;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    height: 200px;
-    width: 100%;
-    margin-top: 0;
+
+main {
+
+    display: block;
 
 }
 
-main{
-    
-    display:block;
-    
-}
-#intro{
+#intro {
     padding: 50px 110px;
 }
 
-#intro img{
+#intro img {
     float: right;
     margin-left: 15px;
     margin-right: 40px;
@@ -108,57 +105,61 @@ main{
     box-shadow: 5px 5px 10px black;
 
 }
- 
-#intro h2 p{
+
+#intro h2 p {
     overflow: auto;
 }
-#intro h2{
+
+#intro h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
- }
- #intro p{
-    
+}
+
+#intro p {
+
     margin-left: 50px;
     font-size: 30px;
- }
+}
 
-#shop{
+#shop {
     text-align: center;
     background-color: #e8e8e8;
     display: block;
- }
+    padding-bottom: 100px;
+}
 
-#shop h2{
+#shop h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     margin-top: 50px;
     padding: 50px 0px;
 }
 
-#shop section{
+#shop section {
     display: inline-block;
     width: 20%;
     height: 420px;
     margin: 20px 60px 40px 60px;
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
     border-radius: 30px;
     border: 1px solid black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-#shop img{
-    
-    
+#shop img {
+
+
     margin-right: 20px;
 }
 
-#prodimg{
+#prodimg {
     background-color: white;
     width: 100%;
     border-radius: 30px 30px 0 0;
 }
-#prodtxt{
+
+#prodtxt {
     display: inline-block;
     border-radius: 0 0 30px 30px;
     margin-top: 0;
@@ -167,24 +168,25 @@ main{
     height: 115px;
     border-bottom: 1px solid black;
     text-align: left;
-    
-    
+
+
 }
 
-#prodtxt h4{
+#prodtxt h4 {
     font-size: 40px;
     margin-top: 10px;
     margin-bottom: 0;
     padding-left: 15px;
 }
-#prodtxt p{
+
+#prodtxt p {
     font-size: 20px;
     margin-top: 10px;
     padding-left: 20px;
 }
 
-#orderinfo{
-    
+#orderinfo {
+
     margin-top: 0;
     display: inline-block;
     width: 100%;
@@ -193,4 +195,123 @@ main{
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+
+
+#seeds {
+    text-align: center;
+    background-color: #e8e8e8;
+    display: block;
+}
+
+#seeds h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin-top: 0;
+    padding: 100px 0px 0px 50px;
+
+}
+
+#seeds section {
+    display: inline-block;
+    width: 30%;
+    height: 370px;
+    margin: 50px 90px 60px 60px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#seeds img {
+
+
+    margin-right: 20px;
+}
+
+#seedimg {
+    background-color: white;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+#seedtxt {
+    display: inline-block;
+    border-radius: 0 0 30px 30px;
+    margin-top: 0;
+    background-color: #c3c4c3;
+    width: 100%;
+    height: 115px;
+    border-bottom: 1px solid black;
+    text-align: left;
+
+
+}
+
+#seedtxt h4 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+#seedtxt p {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+footer {
+    display: inline-block;
+    background-color: olivedrab;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+
+}
+
+footer ul {
+    list-style: none;
+    color: black;
+    display: inline-block;
+    padding: 0;
+
+}
+
+footer ul li {
+    display: block;
+    font-size: 20px;
+    margin: 20px 10px;
+    color: black;
+}
+
+#ful1 {
+    float: left;
+    margin-left: 20%;
+}
+
+footer p {
+    clear: left;
+
+}
+
+footer ul li a {
+
+    color: black;
+}
+
+li {
+
+    color: black;
+}
+
+li a {
+    color: black;
+}
+
+hr {
+    margin: 0;
 }

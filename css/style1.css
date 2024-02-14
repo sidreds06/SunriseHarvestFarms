@@ -1,14 +1,15 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: lightgrey;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
 
-header{
+header {
     display: inline-block;
     margin-top: 0px;
     background-image: url(../img/img1.jpg);
@@ -18,21 +19,23 @@ header{
     height: 850px;
     text-align: center;
 }
-.imgtxt{
-    
+
+.imgtxt {
+
     color: whitesmoke;
     text-shadow: 4px 4px 8px #000000;
-    
+
 }
 
-header h1{
+header h1 {
     margin-top: 190px;
     margin-bottom: 0;
-    
+
     font-family: Papyrus, fantasy;
     font-size: 95px;
 }
-header p{
+
+header p {
     padding-top: 0;
     margin-top: 0;
     font-family: cursive;
@@ -40,45 +43,65 @@ header p{
     margin-bottom: 140px;
 }
 
-section a{
-   text-align: center;
-   display: inline-block;
-   background-color: lightgreen;
-   width: 150px;
-   height: 40px;
-   border-radius: 15px;
-   color: black;
-   margin:0 20px;
-   padding-top: 10px;
-   font-size: x-large;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+section a {
+    text-align: center;
+    display: inline-block;
+    background-color: lightgreen;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    color: black;
+    margin: 0 20px;
+    padding-top: 10px;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-footer{
+
+footer {
     display: inline-block;
     background-color: olivedrab;
     font-family: Helvetica, sans-serif;
     text-align: center;
-    height: 200px;
+    height: auto;
     width: 100%;
     margin-top: 0;
 
+
 }
-ul{
+
+footer ul {
     list-style: none;
     color: black;
+    display: inline-block;
+    padding: 0;
 
 }
-li{
-    display: inline-block;
+
+footer ul li {
+    display: block;
     font-size: 20px;
     margin: 20px 10px;
-}
-footer p{
-    margin-top: 40px;
-}
-
-li a{
-    
     color: black;
 }
 
+#ful1 {
+    float: left;
+    margin-left: 20%;
+}
+
+footer p {
+
+    clear: left;
+
+}
+
+footer ul li a {
+
+    color: black;
+}
+
+
+li a {
+
+    color: black;
+}
