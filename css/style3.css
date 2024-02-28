@@ -11,7 +11,8 @@ header {
     margin-top: 0;
     padding-top: 0;
     background-color: aqua;
-    font-family: papyrus;
+    font-family: Papyrus, fantasy;
+    background-image: url("/img/fruits-1.jpg");
     
 }
 

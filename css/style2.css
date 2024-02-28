@@ -150,7 +150,8 @@ main {
 #shop img {
 
 
-    margin-right: 20px;
+    
+    width: 100%;
 }
 
 #prodimg {
@@ -227,7 +228,8 @@ main {
 #seeds img {
 
 
-    margin-right: 20px;
+    
+    width: 100%;
 }
 
 #seedimg {
