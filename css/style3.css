@@ -1,69 +1,247 @@
-.outerwrapper {
-    background-color:lightgrey;
+body {
     margin: 0;
     padding: 0;
-}
-
-header {
-    text-align: center;
-    text-decoration: solid;
-    text-shadow: 1px 1px black;
-    margin-top: 0;
-    padding-top: 0;
-    background-color: aqua;
-    font-family: Papyrus, fantasy;
-    background-image: url("/img/fruits-1.jpg");
-    
-}
-
-ul {
-    display: inline;
-    list-style: none;
-    text-align: center;
-
+    background-color: lightgrey;
 }
 
 nav {
-    background-color: olivedrab;
-    color: white;
     float: left;
-    width: 15%;
-    padding-bottom: 30%;
-    margin-right:2%
-
+    background-color: olivedrab;
+    font-family: Helvetica, sans-serif;
+    height: 710px;
+    position: sticky;
+    top:0;
+    width: 10%;
+    padding-top: 2%;
+    border-right: 2px solid black;
 }
 
-hr , a{
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+nav ul li a {
     text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Papyrus, fantasy;
     color: white;
+    font-size: 190px;
+    margin-top: 0px;
+    text-shadow: 4px 4px 8px black;
+    padding-top: 140px;
 }
 
-main {
+.BgImg {
+    background-image: url("../img/fruitsBgPic.jpg");
+    height: 650px;
+    background-size: cover;
+    opacity: 0.75;
+    border-bottom: 2px solid black;
+}
+
+
+#intro h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin-left: 200px;
+}
+
+#intro p {
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+#intro img {
+    height: 450px;
+    width: 450px;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#typesOfFruits {
+    text-align: center;
+    height: 650px;
+    background-color: #e8e8e8;
     overflow: auto;
+    margin:0;
+    padding: 0;
 }
 
-.firstfruitscoloumn {
- float: left;
+#typesOfFruits h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+
 }
 
-.secondfruitscoloumn {
-    clear: right;
+#typesOfFruits section {
+    display: inline-block;
+    width: 20%;
+    height: 420px;
+    margin: 20px 60px 40px 60px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#typesOfFruits img {
+    width: 100%;
+}
+
+#prodImg {
+    margin-top: 6%;
+    height: 240px;
+    width: 240px;
+    width: 100%;
+}
+
+#prodTxt {
+    
+    background-color: #c3c4c3;
+    height: 153px;
+    margin-top: 0;
+    border-radius: 0 0 30px 30px;
+    border-bottom: 1px solid black;
+}
+
+#prodTxt h4 {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 10px;
+    padding-top: 5%;
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+#prodTxt p {
+    font-size: 20px;
+}
+
+#typesOfSeeds{
+    text-align: center;
+    height: 750px;
+    background-color: #e8e8e8;
     overflow: auto;
+    margin:0;
+    padding: 0;
 }
 
-.thirdfruitscoloumn {
-    clear:left;
-    float :right;
+#typesOfSeeds h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    padding-left: 6%;
 }
-/* .seedstitle {
-    clear: right;
+
+#typesOfSeeds section {
+    display: inline-block;
+    width: 20%;
+    height: 420px;
+    margin: 20px 50px 40px 170px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/*  
-.seedscoloumn {
-    clear: both;
-} */
+
+#typesOfSeeds img {
+    width: 100%;
+}
+
+#seedsImg {
+    margin-top: 6%;
+    height: 200px;
+    width: 250px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#seedsTxt {
+    background-color: #c3c4c3;
+    height: 193px;
+    margin-top: 0;
+    border-radius: 0 0 30px 30px;
+    border-bottom: 1px solid black;
+} 
+
+#seedsTxt  h4 {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 10px;
+    padding-top: 10%;
+    margin-bottom: 5%;
+    padding-left: 15px;
+}
+
+#seedsTxt  p {
+    margin-top:10%;
+    font-size: 20px;
+}
+
+#orderinfo {
+
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: #e8e8e8;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 
 footer {
-    clear: both;
+    background-color: lightgrey;
+    font-family: Helvetica, sans-serif;
     text-align: center;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+    float: left;
+    overflow: auto;
+    border-top:  2px solid black;
+
+}
+
+footer ul {
+    list-style: none;
+    color: black;
+    display: inline-block;
+    padding: 0;
+
+}
+
+footer ul li {
+    display: block;
+    font-size: 20px;
+    margin: 20px 10px;
+    color: black;
+}
+
+#ful1 {
+    float: left;
+    margin-left: 20%;
+}
+
+footer p {
+    clear: left;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
 }
