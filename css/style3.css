@@ -176,7 +176,7 @@ header a {
 
 #typesOfSeeds{
     text-align: center;
-    height: 820px;
+    height: 900px;
     background-color: #e8e8e8;
     overflow: auto;
     height: 100%;
@@ -193,7 +193,7 @@ header a {
 #typesOfSeeds section {
     display: inline-block;
     width: 30%;
-    height: 490px;
+    height: 500px;
     margin: 20px 20px 40px 170px;
     background-color: whitesmoke;
     border-radius: 30px;
@@ -216,7 +216,7 @@ header a {
 
 #seedsTxt {
     background-color: #c3c4c3;
-    height: 150px;
+    height: 155px;
     margin-top: 123px;
     border-radius: 0 0 30px 30px;
     border-bottom: 1px solid black;

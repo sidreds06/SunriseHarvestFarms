@@ -34,6 +34,10 @@ nav {
     width: 100%;
     z-index: 1000;
 }
+nav h3 a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
+}
 
 nav ul li {
     color: whitesmoke;
@@ -43,7 +47,10 @@ nav ul li {
 nav ul li a{
     color: whitesmoke;
 }
-
+nav ul li a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
+}
 nav h3{
     float: left;
     color: whitesmoke;
@@ -91,6 +98,11 @@ header {
     color: black;
 
 
+}
+
+.imgtxt a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
 }
 
 header h1 {
@@ -218,7 +230,18 @@ main {
     text-align: center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
 
+#orderinfo a{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#orderinfo a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0,1);
 }
 
 
@@ -226,6 +249,7 @@ main {
     text-align: center;
     background-color: #e8e8e8;
     display: block;
+    margin-bottom: 0;
 }
 
 #seeds h2 {
@@ -249,9 +273,6 @@ main {
 }
 
 #seeds img {
-
-
-    
     width: 100%;
     height: 330px;
 }
@@ -271,8 +292,6 @@ main {
     height: 115px;
     border-bottom: 1px solid black;
     text-align: left;
-
-
 }
 
 #seedtxt h4 {
@@ -288,6 +307,24 @@ main {
     padding-left: 20px;
 }
 
+#ful1 h3 {
+    text-decoration: underline;
+}
+
+ #ful2 h3 {
+    text-decoration: underline;
+ }
+
+#ful1 li a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
+}
+
+#ful2 li:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
+}
+
 footer {
     display: inline-block;
     background-color: #163020;
@@ -296,7 +333,8 @@ footer {
     height: auto;
     width: 100%;
     margin-top: 0;
-
+    border-top:  3px solid black;
+    padding-top: 2%;
 }
 
 footer ul {
@@ -304,7 +342,6 @@ footer ul {
     color: whitesmoke;
     display: inline-block;
     padding: 0;
-
 }
 
 footer ul li {
@@ -318,6 +355,38 @@ footer ul li {
 #ful1 {
     float: left;
     margin-left: 20%;
+}
+#icons li {
+    display: inline;
+}
+
+#icons li a {
+    padding-top: 3px;
+}
+
+.fbIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.lnIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.inIcon {
+    width: 30px;
+    height: 30px;
+}
+
+footer #heartIcon {
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+#iconLinks {
+    margin-top: 0%;
 }
 
 footer p {
