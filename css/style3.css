@@ -11,7 +11,7 @@ body {
     font-family: Helvetica, sans-serif;
     border-bottom: 2px solid black;
     width: 100%;
-    
+
 }
 
 #topBar h3 {
@@ -39,7 +39,7 @@ nav {
     font-family: Helvetica, sans-serif;
     height: 710px;
     position: sticky;
-    top:0;
+    top: 0;
     width: 10%;
     padding-top: 2%;
     border-right: 2px solid black;
@@ -68,7 +68,7 @@ nav ul li:hover {
 header h1 {
     text-align: center;
     font-family: Papyrus, fantasy;
-    
+
     font-size: 200px;
     margin-top: 0px;
     text-shadow: 4px 4px 8px black;
@@ -78,12 +78,13 @@ header h1 {
 
 header a {
     color: white;
-    
+
     text-decoration: none;
 }
 
 .BgImg {
     background-image: url("../img/fruitsBgPic.jpeg");
+    /*Image Source: https://www.vecteezy.com/photo/29628395-studio-shot-of-various-fruits-and-vegetables-isolated-on-black-background-top-view-high-resolution-products*/
     height: 700px;
     background-size: cover;
     opacity: 0.75;
@@ -95,6 +96,7 @@ header a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
     /* color: black; */
 }
+
 #intro h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
@@ -122,7 +124,7 @@ header a {
     height: 100%;
     background-color: #e8e8e8;
     overflow: auto;
-    margin-left:90px;
+    margin-left: 90px;
     padding: 0;
 }
 
@@ -175,13 +177,13 @@ header a {
     font-size: 20px;
 }
 
-#typesOfSeeds{
+#typesOfSeeds {
     text-align: center;
     height: 900px;
     background-color: #e8e8e8;
     overflow: auto;
     height: 100%;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
@@ -221,9 +223,9 @@ header a {
     margin-top: 123px;
     border-radius: 0 0 30px 30px;
     border-bottom: 1px solid black;
-} 
+}
 
-.seedsTxt  h4 {
+.seedsTxt h4 {
     text-align: left;
     font-size: 40px;
     margin-top: 10px;
@@ -232,8 +234,8 @@ header a {
     padding-left: 15px;
 }
 
-.seedsTxt  p {
-    margin-top:5%;
+.seedsTxt p {
+    margin-top: 5%;
     font-size: 20px;
 }
 
@@ -247,8 +249,9 @@ header a {
     text-align: center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
+
 #orderinfo a {
     text-decoration: none;
     color: black;
@@ -256,16 +259,16 @@ header a {
 
 #orderinfo a:hover {
     text-decoration: none;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0,1);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 1);
 }
 
 #ful1 h3 {
     text-decoration: underline;
 }
 
- #ful2 h3 {
+#ful2 h3 {
     text-decoration: underline;
- }
+}
 
 #ful1 li a:hover {
     text-decoration: none;
@@ -276,6 +279,7 @@ header a {
     text-decoration: none;
     text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
 }
+
 footer {
     background-color: #163020;
     font-family: Helvetica, sans-serif;
@@ -285,7 +289,7 @@ footer {
     margin-top: 0;
     float: left;
     overflow: auto;
-    border-top:  2px solid black;
+    border-top: 2px solid black;
 }
 
 footer ul {
@@ -337,6 +341,7 @@ footer #heartIcon {
     width: 30px;
     height: 30px;
 }
+
 #iconLinks {
     margin-top: 0%;
 }
