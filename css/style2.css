@@ -100,6 +100,11 @@ header {
 
 }
 
+.imgtxt h1 a{
+    color: black;
+}
+
+
 .imgtxt a:hover {
     text-decoration: none;
     text-shadow: 2px 2px 4px rgb(255, 255, 255, 1);
